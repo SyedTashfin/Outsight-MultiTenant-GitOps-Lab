@@ -2,7 +2,7 @@
 
 ## Project Goal
 
-Build a realistic, interview-ready platform demo that proves end-to-end DevOps ownership for:
+Build a realistic, production-style platform demo that proves end-to-end DevOps ownership for:
 
 - CI/CD
 - Kubernetes deployment management
@@ -52,7 +52,7 @@ Build a realistic, interview-ready platform demo that proves end-to-end DevOps o
 ### Automation and operations
 
 - idempotent scripts for bootstrap, verification, status, canary demos, and endpoint exposure
-- deterministic tenant comparison via `make demo-compare` for recruiter walkthroughs
+- deterministic tenant comparison via `make demo-compare` for walkthroughs
 
 ## Key Results
 
@@ -94,20 +94,3 @@ Build a realistic, interview-ready platform demo that proves end-to-end DevOps o
 - add SLO/alert budgets per tenant
 - add signed image verification gate in promotion path
 - move UI access to ingress + TLS in production-like mode
-
-## Internship Responsibility Mapping
-
-- **Enhance CI/CD pipelines**
-  - implemented lint/test/build/promote pipeline with auditable GitOps handoff
-
-- **Manage Kubernetes deployments using YAML, Helm, Argo CD**
-  - implemented tenant-scoped Helm values + Argo CD Application model
-
-- **Build observability (Prometheus/Grafana/Loki)**
-  - implemented tenant-aware scraping, dashboarding, and log querying
-
-- **Cloud-native monitoring integration orientation**
-  - architecture supports migration to managed cloud backends without changing core workflow
-
-- **Document architecture and outcomes**
-  - full documentation set now aligned to actual runtime behavior and recovery paths

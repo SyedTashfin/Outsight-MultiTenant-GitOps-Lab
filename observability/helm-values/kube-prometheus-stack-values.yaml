@@ -8,7 +8,7 @@ grafana:
 
 prometheus:
   service:
-    # Expose Prometheus UI directly for recruiter demos.
+    # Expose Prometheus UI directly for demos.
     type: NodePort
     nodePort: 30090
   prometheusSpec:

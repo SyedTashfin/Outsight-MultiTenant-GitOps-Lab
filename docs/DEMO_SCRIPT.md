@@ -1,6 +1,6 @@
 # Demo Script
 
-Use this script to run a clean 8-10 minute interview demo.
+Use this script to run a clean 8-10 minute walkthrough of the platform.
 
 ## 1) 2-minute framing
 
@@ -23,7 +23,7 @@ make open-ports
 ./scripts/verify.sh
 ```
 
-`make demo-compare` is the first recruiter-facing step. It prints:
+`make demo-compare` is the first step. It prints:
 - canary rollout step weights (`setWeight`) for tenant-a vs tenant-b
 - rollout analysis thresholds (`maxErrorRate`, `maxP95LatencyMs`)
 - whether NetworkPolicy is present in each tenant namespace

@@ -187,7 +187,7 @@ image:
   tag: "$TARGET_TAG"
 rollout:
   analysis:
-    # Lenient thresholds keep this path deterministic for interview demos.
+    # Lenient thresholds keep this path deterministic for demos.
     successCondition5xx: "result[0] < 0.8"
     failureCondition5xx: "result[0] >= 0.8"
     successConditionP95: "result[0] < 5"

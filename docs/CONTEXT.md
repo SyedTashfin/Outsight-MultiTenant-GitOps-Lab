@@ -228,6 +228,5 @@ Pass criteria:
 - Design/tradeoffs: `docs/ARCHITECTURE.md`
 - Operational commands: `docs/RUNBOOK.md`
 - Quick start path: `docs/QUICKSTART.md`
-- Live interview script: `docs/DEMO_SCRIPT.md`
-- Interview narrative: `docs/INTERVIEW_TALK_TRACK.md`
+- Demo walkthrough: `docs/DEMO_SCRIPT.md`
 - Outcome summary: `docs/REPORT.md`

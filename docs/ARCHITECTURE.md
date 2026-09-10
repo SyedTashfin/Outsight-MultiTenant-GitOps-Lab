@@ -111,7 +111,7 @@ Code Push
 
 - minimal operational overhead for demo
 - reproducible and auditable workflow
-- clear, explainable moving parts for interviews
+- clear, explainable moving parts
 
 ### Limitations
 

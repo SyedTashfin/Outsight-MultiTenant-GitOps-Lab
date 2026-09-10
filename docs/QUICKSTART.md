@@ -2,7 +2,7 @@
 
 Two runnable paths are supported.
 
-## VPS Path (recommended for interview demo)
+## VPS Path (recommended)
 
 ```bash
 cd /path/to/Outsight-MultiTenant-GitOps-Lab

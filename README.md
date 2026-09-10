@@ -192,6 +192,5 @@ make local-verify
 - `docs/ARCHITECTURE.md` - component-level design and tradeoffs
 - `docs/RUNBOOK.md` - operational run procedures
 - `docs/QUICKSTART.md` - concise command paths
-- `docs/DEMO_SCRIPT.md` - interview demo script
-- `docs/INTERVIEW_TALK_TRACK.md` - pitch + likely Q&A
-- `docs/REPORT.md` - implementation summary and internship mapping
+- `docs/DEMO_SCRIPT.md` - demo walkthrough
+- `docs/REPORT.md` - implementation summary
